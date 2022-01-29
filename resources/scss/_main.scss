@@ -5,6 +5,12 @@ body {
   font-family: Courier, serif;
 }
 
+#about-me {
+  p {
+    white-space: pre-line
+  }
+}
+
 #skills {
   ul {
     display: block;
