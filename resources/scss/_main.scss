@@ -1,0 +1,38 @@
+body {
+  padding: 5rem;
+  background-color: $background;
+  color: $text;
+  font-family: Courier, serif;
+}
+
+#skills {
+  ul {
+    display: block;
+    font-size: 1.5rem;
+    padding: 0;
+    li {
+      font-family: Verdana, serif;
+      display: inline-block;
+      padding-right: 0.5rem;
+    }
+  }
+}
+
+#links {
+  ul {
+    display: block;
+    font-size: 2rem;
+    padding: 0;
+    li {
+      font-family: Verdana, serif;
+      display: inline-block;
+      padding: 0 0.25rem 0 0.25rem;
+      a {
+        color: $text;
+        &:hover {
+          color: $text-hover;
+        }
+      }
+    }
+  }
+}
